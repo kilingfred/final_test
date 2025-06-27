@@ -19,3 +19,45 @@
 2025-06-27 10:45:49,992 [main] INFO  org.example.pages.Dashboard - Inputting username: standard_user
 2025-06-27 10:45:50,078 [main] INFO  org.example.pages.Dashboard - Inputting password: secret_sauce
 2025-06-27 10:45:50,142 [main] INFO  org.example.pages.Dashboard - Submitting success
+2025-06-27 10:59:10,405 [main] WARN  org.example.pages.Dashboard - Login without username and password
+2025-06-27 10:59:10,405 [main] INFO  org.example.pages.Dashboard - User info: User{username='admin', password='admin'}
+2025-06-27 10:59:10,435 [main] INFO  org.example.pages.Dashboard - Opening login page
+2025-06-27 10:59:10,956 [main] INFO  org.example.pages.Dashboard - Inputting username: admin
+2025-06-27 10:59:11,043 [main] INFO  org.example.pages.Dashboard - Inputting password: admin
+2025-06-27 10:59:11,118 [main] INFO  org.example.pages.Dashboard - Clearing username
+2025-06-27 10:59:11,215 [main] INFO  org.example.pages.Dashboard - Clearing password
+2025-06-27 10:59:11,291 [main] INFO  org.example.pages.Dashboard - Submitting fails
+2025-06-27 10:59:13,689 [main] WARN  org.example.pages.Dashboard - Login without password
+2025-06-27 10:59:13,689 [main] INFO  org.example.pages.Dashboard - User info: User{username='admin', password='dummy'}
+2025-06-27 10:59:13,690 [main] INFO  org.example.pages.Dashboard - Opening login page
+2025-06-27 10:59:14,244 [main] INFO  org.example.pages.Dashboard - Inputting username: admin
+2025-06-27 10:59:14,319 [main] INFO  org.example.pages.Dashboard - Inputting password: dummy
+2025-06-27 10:59:14,385 [main] INFO  org.example.pages.Dashboard - Clearing password
+2025-06-27 10:59:14,450 [main] INFO  org.example.pages.Dashboard - Submitting fails
+2025-06-27 10:59:16,831 [main] WARN  org.example.pages.Dashboard - Login with username and password
+2025-06-27 10:59:16,832 [main] INFO  org.example.pages.Dashboard - User info: User{username='standard_user', password='secret_sauce'}
+2025-06-27 10:59:16,833 [main] INFO  org.example.pages.Dashboard - Opening login page
+2025-06-27 10:59:17,340 [main] INFO  org.example.pages.Dashboard - Inputting username: standard_user
+2025-06-27 10:59:17,431 [main] INFO  org.example.pages.Dashboard - Inputting password: secret_sauce
+2025-06-27 10:59:17,503 [main] INFO  org.example.pages.Dashboard - Submitting success
+2025-06-27 10:59:35,761 [main] WARN  org.example.pages.Dashboard - Login without username and password
+2025-06-27 10:59:35,764 [main] INFO  org.example.pages.Dashboard - User info: User{username='admin', password='admin'}
+2025-06-27 10:59:35,797 [main] INFO  org.example.pages.Dashboard - Opening login page
+2025-06-27 10:59:36,252 [main] INFO  org.example.pages.Dashboard - Inputting username: admin
+2025-06-27 10:59:36,343 [main] INFO  org.example.pages.Dashboard - Inputting password: admin
+2025-06-27 10:59:36,398 [main] INFO  org.example.pages.Dashboard - Clearing username
+2025-06-27 10:59:36,484 [main] INFO  org.example.pages.Dashboard - Clearing password
+2025-06-27 10:59:36,561 [main] INFO  org.example.pages.Dashboard - Submitting fails
+2025-06-27 10:59:37,710 [main] WARN  org.example.pages.Dashboard - Login without password
+2025-06-27 10:59:37,710 [main] INFO  org.example.pages.Dashboard - User info: User{username='admin', password='dummy'}
+2025-06-27 10:59:37,711 [main] INFO  org.example.pages.Dashboard - Opening login page
+2025-06-27 10:59:38,163 [main] INFO  org.example.pages.Dashboard - Inputting username: admin
+2025-06-27 10:59:38,238 [main] INFO  org.example.pages.Dashboard - Inputting password: dummy
+2025-06-27 10:59:38,297 [main] INFO  org.example.pages.Dashboard - Clearing password
+2025-06-27 10:59:38,357 [main] INFO  org.example.pages.Dashboard - Submitting fails
+2025-06-27 10:59:39,455 [main] WARN  org.example.pages.Dashboard - Login with username and password
+2025-06-27 10:59:39,456 [main] INFO  org.example.pages.Dashboard - User info: User{username='standard_user', password='secret_sauce'}
+2025-06-27 10:59:39,456 [main] INFO  org.example.pages.Dashboard - Opening login page
+2025-06-27 10:59:39,905 [main] INFO  org.example.pages.Dashboard - Inputting username: standard_user
+2025-06-27 10:59:39,999 [main] INFO  org.example.pages.Dashboard - Inputting password: secret_sauce
+2025-06-27 10:59:40,061 [main] INFO  org.example.pages.Dashboard - Submitting success
