@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 import static org.example.driver.DriverSimpleton.driver;
 
 public class Dashboard extends Page {
-    @FindBy(xpath = "//div[text()='Swag Labs']")
+    @FindBy(xpath = "//span[text()='Products']")
     private WebElement title;
 
     private static final Logger logger = LoggerUtil.getLogger(Dashboard.class);

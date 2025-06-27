@@ -5,10 +5,10 @@ import org.example.models.User;
 import org.example.pages.Dashboard;
 import org.example.pages.LoginPage;
 import org.example.utils.LoggerUtil;
-import org.hamcrest.MatcherAssert;
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.containsString;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class UC_3 extends Common{
 
@@ -26,6 +26,6 @@ public class UC_3 extends Common{
                 submitSuccess().
                 openPage().
                 getTitle();
-        MatcherAssert.assertThat(title, containsString("Swag Labs"));
+        assertThat(title, containsString("Products"));
     }
 }
