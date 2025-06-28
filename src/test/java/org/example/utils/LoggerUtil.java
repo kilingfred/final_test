@@ -1,7 +1,10 @@
 package org.example.utils;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class LoggerUtil {
-    public static org.apache.log4j.Logger getLogger(Class<?> clazz) {
-        return org.apache.log4j.Logger.getLogger(clazz);
+    public static Logger getLogger(Class<?> clazz) {
+        return LogManager.getLogger(clazz);
     }
 }

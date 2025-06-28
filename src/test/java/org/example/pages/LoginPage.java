@@ -1,6 +1,6 @@
 package org.example.pages;
 
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.Logger;
 import org.example.utils.LoggerUtil;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -13,6 +13,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
+
+
 import static org.example.driver.DriverSimpleton.driver;
 
 public class LoginPage extends Page {
@@ -27,7 +29,7 @@ public class LoginPage extends Page {
 
     private final WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
-    private static final Logger logger = LoggerUtil.getLogger(Dashboard.class);
+    private static final Logger logger = LoggerUtil.getLogger(LoginPage.class);
 
     public WebElement errorMessage;
 
@@ -38,13 +40,13 @@ public class LoginPage extends Page {
     }
 
     public LoginPage inputUsername(String username) {
-        logger.info("Inputting username: " + username);
+        logger.info("Inputting username: {}", username);
         usernameInput.sendKeys(username);
         return this;
     }
 
     public LoginPage inputPassword(String password) {
-        logger.info("Inputting password: " + password);
+        logger.info("Inputting password: {}", password);
         passwordInput.sendKeys(password);
         return this;
     }

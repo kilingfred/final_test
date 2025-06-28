@@ -1,6 +1,7 @@
 package org.example.pages;
 
-import org.apache.log4j.Logger;
+
+import org.apache.logging.log4j.Logger;
 import org.example.utils.LoggerUtil;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.devtools.v135.page.Page;
@@ -21,7 +22,7 @@ public class Dashboard extends Page {
     }
 
     public Dashboard openPage() {
-        logger.trace("Entering openPage");
+        logger.trace("Opening Dashboard Page");
         driver.navigate().to(DASHBOARD_URL);
         return this;
     }
