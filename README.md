@@ -5,6 +5,6 @@ Set browser parameter by typing -Dbrowser="chrome" or -Dbrowser="edge" in run co
 --
 ![img.png](img.png)
 # Logger
---
+
 You can browse logs inside /logs/test-log.log file or console.
 --
